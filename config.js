@@ -54,4 +54,16 @@ module.exports = {
     , maxLenghtOfUserName: 50
     , cleanSmsCodeTime: deleteSmsTime * 2 // данные в любом случае будут 
     , serverToken: 'kuhalkulkjbgjhgjshgcnbvccvxdsgfdhgfjgvbfdsfgdsawqewydfdtjtjhgfjghfbnvcnbvcjgjhgfttygfdsgfdsgfdsgfdsgdfsgfdsgfdsvbvcxxdhgfdhgfd'
+    , "countryTemplates": {
+        "RU": {
+            "phonePlaceholder": "+7(XXX)XXX-XX-XX"
+        },
+        "CN": {
+            "phonePlaceholder": "+88(XXX)XXX-XX-XX-X"
+        },
+        "TR": {
+            "phonePlaceholder": "+999(XXX)XXX-XX-XX-XX"
+        }
+    }
+    , "lifetimeSms": 60000 // это время жизни смс-ки при аутентификации супервизора
 }
